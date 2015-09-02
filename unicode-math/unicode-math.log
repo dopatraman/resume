@@ -1,0 +1,512 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.9.1)  1 SEP 2015 14:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**unicode-math.dtx
+(./unicode-math.dtx
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3docstrip.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count79
+\emptyLines=\count80
+\processedLines=\count81
+\commentsRemoved=\count82
+\commentsPassed=\count83
+\codeLinesPassed=\count84
+\TotalprocessedLines=\count85
+\TotalcommentsRemoved=\count86
+\TotalcommentsPassed=\count87
+\TotalcodeLinesPassed=\count88
+\NumberOfFiles=\count89
+\inFile=\read1
+\inputcheck=\read2
+\off@0=\count90
+\off@1=\count91
+\off@2=\count92
+\off@3=\count93
+\off@4=\count94
+\off@5=\count95
+\off@6=\count96
+\off@7=\count97
+\off@8=\count98
+\off@9=\count99
+\off@10=\count100
+\off@11=\count101
+\off@12=\count102
+\off@13=\count103
+\off@14=\count104
+\off@15=\count105
+\@maxfiles=\count106
+\@maxoutfiles=\count107
+
+Utility: `docstrip' 2.5d <2005/07/29>
+English documentation    <1999/03/31>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+))
+
+Generating file(s) ./unicode-math.sty 
+\openout0 = `./unicode-math.sty'.
+
+
+Processing file unicode-math.dtx (preamble) -> unicode-math.sty
+File unicode-math.dtx ended by \endinput.
+Lines  processed: 3953
+Comments removed: 1602
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math-msg.dtx (msg) -> unicode-math.sty
+Lines  processed: 112
+Comments removed: 18
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math-usv.dtx (usv) -> unicode-math.sty
+Lines  processed: 567
+Comments removed: 145
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math.dtx (load) -> unicode-math.sty
+File unicode-math.dtx  ended by \endinput.
+Lines  processed: 3953
+Comments removed: 1602
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math-alphabets.dtx (alphabets) -> unicode-math.sty
+Lines  processed: 903
+Comments removed: 77
+Comments  passed: 0
+Codelines passed: 0
+
+
+Generating file(s) ./unicode-math-xetex.sty 
+\openout0 = `./unicode-math-xetex.sty'.
+
+
+Processing file unicode-math.dtx (package,XE) -> unicode-math-xetex.sty
+File unicode-math.dtx ended by \endinput.
+Lines  processed: 3953
+Comments removed: 1602
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math-compat.dtx (compat,XE) -> unicode-math-xetex.sty
+Lines  processed: 508
+Comments removed: 159
+Comments  passed: 3
+Codelines passed: 0
+
+
+Generating file(s) ./unicode-math-luatex.sty 
+\openout0 = `./unicode-math-luatex.sty'.
+
+
+Processing file unicode-math.dtx (package,LU) -> unicode-math-luatex.sty
+File unicode-math.dtx ended by \endinput.
+Lines  processed: 3953
+Comments removed: 1602
+Comments  passed: 0
+Codelines passed: 0
+
+
+Processing file unicode-math-compat.dtx (compat,LU) -> unicode-math-luatex.sty
+Lines  processed: 508
+Comments removed: 159
+Comments  passed: 3
+Codelines passed: 0
+
+
+Generating file(s) ./dtx-style.sty 
+\openout0 = `./dtx-style.sty'.
+
+
+Processing file unicode-math.dtx (dtx-style) -> dtx-style.sty
+File unicode-math.dtx ended by \endinput.
+Lines  processed: 3953
+Comments removed: 1602
+Comments  passed: 0
+Codelines passed: 0
+
+File: unicode-math.dtx 2014/08/06 v0.8a Unicode maths in XeLaTeX and LuaLaTeX
+(./unicode-math-doc.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2007/11/11 v2.0u Standard LaTeX documentation class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count108
+\c@section=\count109
+\c@subsection=\count110
+\c@subsubsection=\count111
+\c@paragraph=\count112
+\c@subparagraph=\count113
+\c@figure=\count114
+\c@table=\count115
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2010/02/04 v2.1e Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count116
+\guard@level=\count117
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count118
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count119
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count120
+\c@collectmore=\count121
+\doublecol@number=\count122
+\multicoltolerance=\count123
+\multicolpretolerance=\count124
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count125
+\c@finalcolumnbadness=\count126
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count127
+)
+\IndexMin=\dimen112
+\c@IndexColumns=\count128
+\GlossaryMin=\dimen113
+\c@GlossaryColumns=\count129
+\check@sum=\count130
+\bslash@cnt=\count131
+\wrong@table=\toks15
+\c@CodelineNo=\count132
+))
+\@indexfile=\write3
+\openout3 = `unicode-math.idx'.
+
+
+Writing index file unicode-math.idx
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texmf/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks16
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen116
+\lightrulewidth=\dimen117
+\cmidrulewidth=\dimen118
+\belowrulesep=\dimen119
+\belowbottomsep=\dimen120
+\aboverulesep=\dimen121
+\abovetopsep=\dimen122
+\cmidrulesep=\dimen123
+\cmidrulekern=\dimen124
+\defaultaddspace=\dimen125
+\@cmidla=\count133
+\@cmidlb=\count134
+\@aboverulesep=\dimen126
+\@belowrulesep=\dimen127
+\@thisruleclass=\count135
+\@lastruleclass=\count136
+\@thisrulewidth=\dimen128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count137
+\calc@Bcount=\count138
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count139
+\calc@Cskip=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks17
+\labelindent=\skip52
+\enit@outerparindent=\dimen131
+\enit@toks=\toks18
+\enit@inbox=\box52
+\enitdp@description=\count140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\FV@CodeLineNo=\count141
+\FV@InFile=\read3
+\FV@TabBox=\box53
+\c@FancyVerbLine=\count142
+\FV@StepNumber=\count143
+\FV@OutFile=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+)
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count144
+\LTcapwidth=\dimen134
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@cols=\count145
+\LT@rows=\count146
+\c@LT@tables=\count147
+\c@LT@chunks=\count148
+\LT@p@ftn=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/refstyle/refstyle.sty
+Package: refstyle 2010/11/02 v0.5 Reference formatting (DNJ Els)
+Package refstyle Info: Config file refstyle.cfg used on input line 322.
+
+(/usr/share/texlive/texmf-dist/tex/latex/refstyle/refstyle.cfg
+File: refstyle.cfg 2010/11/02 0.5 Configuration file for refstyle (DNJ Els)
+Package refstyle Info: New reference template \newref{part} on input line 468.
+Package refstyle Info: \partkey created on input line 468.
+Package refstyle Info: \partlabel created on input line 468.
+Package refstyle Info: \partref created on input line 468.
+Package refstyle Info: \Partref created on input line 468.
+Package refstyle Info: \partrangeref created on input line 468.
+Package refstyle Info: \Partrangeref created on input line 468.
+Package refstyle Info: \partpageref created on input line 468.
+Package refstyle Info: New reference template \newref{chap} on input line 501.
+Package refstyle Info: \chapkey created on input line 501.
+Package refstyle Info: \chaplabel created on input line 501.
+Package refstyle Info: \chapref created on input line 501.
+Package refstyle Info: \Chapref created on input line 501.
+Package refstyle Info: \chaprangeref created on input line 501.
+Package refstyle Info: \Chaprangeref created on input line 501.
+Package refstyle Info: \chappageref created on input line 501.
+Package refstyle Info: New reference template \newref{sec} on input line 511.
+Package refstyle Info: \seckey created on input line 511.
+Package refstyle Info: \seclabel created on input line 511.
+Package refstyle Info: \secref created on input line 511.
+Package refstyle Info: \Secref created on input line 511.
+Package refstyle Info: \secrangeref created on input line 511.
+Package refstyle Info: \Secrangeref created on input line 511.
+Package refstyle Info: \secpageref created on input line 511.
+Package refstyle Info: New reference template \newref{eq} on input line 526.
+Package refstyle Info: \eqkey created on input line 526.
+Package refstyle Info: \eqlabel created on input line 526.
+Package refstyle Info: \eqref created on input line 526.
+Package refstyle Info: \Eqref created on input line 526.
+Package refstyle Info: \eqrangeref created on input line 526.
+Package refstyle Info: \Eqrangeref created on input line 526.
+Package refstyle Info: \eqpageref created on input line 526.
+Package refstyle Info: New reference template \newref{fig} on input line 544.
+Package refstyle Info: \figkey created on input line 544.
+Package refstyle Info: \figlabel created on input line 544.
+Package refstyle Info: \figref created on input line 544.
+Package refstyle Info: \Figref created on input line 544.
+Package refstyle Info: \figrangeref created on input line 544.
+Package refstyle Info: \Figrangeref created on input line 544.
+Package refstyle Info: \figpageref created on input line 544.
+Package refstyle Info: New reference template \newref{tab} on input line 553.
+Package refstyle Info: \tabkey created on input line 553.
+Package refstyle Info: \tablabel created on input line 553.
+Package refstyle Info: \tabref created on input line 553.
+Package refstyle Info: \Tabref created on input line 553.
+Package refstyle Info: \tabrangeref created on input line 553.
+Package refstyle Info: \Tabrangeref created on input line 553.
+Package refstyle Info: \tabpageref created on input line 553.
+Package refstyle Info: New reference template \newref{fn} on input line 568.
+Package refstyle Info: \fnkey created on input line 568.
+Package refstyle Info: \fnlabel created on input line 568.
+Package refstyle Info: \fnref created on input line 568.
+Package refstyle Info: \Fnref created on input line 568.
+Package refstyle Info: \fnrangeref created on input line 568.
+Package refstyle Info: \Fnrangeref created on input line 568.
+Package refstyle Info: \fnpageref created on input line 568.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+)
+\c@ContinuedFloat=\count149
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+))
+\c@KVtest=\count150
+\sf@farskip=\skip57
+\sf@captopadj=\dimen142
+\sf@capskip=\skip58
+\sf@nearskip=\skip59
+\c@subfigure=\count151
+\c@subfigure@save=\count152
+\c@lofdepth=\count153
+\c@subtable=\count154
+\c@subtable@save=\count155
+\c@lotdepth=\count156
+\sf@top=\skip60
+\sf@bottom=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ltxmisc/topcapt.sty
+Package: topcapt 2004/12/11 v1.2 Caption at top of float
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
+\c@vrcnt=\count157
+)
+(/usr/share/texlive/texmf-dist/tex/latex/underscore/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
+)
+(./unicode-math.sty
+Package: unicode-math 2014/08/06 v0.8a Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+
+! Package unicode-math Error: Cannot be run with pdfLaTeX!
+(unicode-math)                Use XeLaTeX or LuaLaTeX instead..
+
+See the unicode-math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+\GenericError  ...                                
+                                                  \endgroup 
+l.42   }\@ehd
+             
+? x
+ 
+Here is how much of TeX's memory you used:
+ 4749 strings out of 495029
+ 69110 string characters out of 6181524
+ 144061 words of memory out of 5000000
+ 7927 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 46i,1n,42p,394b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

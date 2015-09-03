@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.9.1)  2 SEP 2015 22:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.9.1)  2 SEP 2015 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,23 +995,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Missing character: There is no ♥ in font [texgyreheros-regular.otf]/ICU:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Overfull \hbox (8.0228pt too wide) in paragraph at lines 39--42
+Overfull \hbox (8.0228pt too wide) in paragraph at lines 40--43
 \EU1/texgyreheros-regular.otf(1)/m/n/10 RESTful APIs, chatrooms, data visualiza
 tions, anagram solvers, console applications, HTML5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--52
+Underfull \hbox (badness 10000) in paragraph at lines 46--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
@@ -1022,37 +1022,37 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--118
+Underfull \hbox (badness 10000) in paragraph at lines 107--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 127.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
  32735 strings out of 495658
  609962 string characters out of 6187952
- 664829 words of memory out of 5000000
+ 663829 words of memory out of 5000000
  35519 multiletter control sequences out of 15000+600000
  4240 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

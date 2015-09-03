@@ -172,7 +172,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   }\\}
 
 \setlength{\itemsep}{20pt}
-\newcommand{\jobdesc}[4]{%
+\newcommand{\bulletlist}[4]{%
   \hspace*{1.5ex}-\hspace{1ex}\emph{#1}\\%
   \hspace*{1.5ex}-\hspace{1ex}\emph{#2}\\%
   \hspace*{1.5ex}-\hspace{1ex}\emph{#3}\\%
@@ -189,6 +189,21 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \newcommand{\jdb}[1]{%
   \\\ind{3.3ex}{#1}%
 }
+
+%%%%%%%%%%%%%%%
+% Tabbing Env %
+%%%%%%%%%%%%%%%
+\newcommand\textbox[2]{%
+  \parbox{#1\textwidth}{#2}%
+}
+
+\newcommand{\tabentry}[4] {%
+  \begin{tabbing}
+    \textbox{0.2}{\footnotesize#1} \= \textbox{0.6}{\textbf{#2}} \= \textbox{0.2}{\footnotesize\addfontfeature{Color=lightgray} \hfill#3}\\
+    \> \textbox{0.8}{#4}\vspace{\parsep}%
+  \end{tabbing}
+}
+
 %%%%%%%%%%%%%%
 % Side block %
 %%%%%%%%%%%%%%

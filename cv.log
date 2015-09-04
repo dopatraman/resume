@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.9.1)  2 SEP 2015 23:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.9.1)  3 SEP 2015 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,12 +994,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 18.
 Missing character: There is no ♥ in font [texgyreheros-regular.otf]/ICU:script=
 latn;language=DFLT;mapping=tex-text;!
-
-Overfull \hbox (8.0228pt too wide) in paragraph at lines 40--43
-\EU1/texgyreheros-regular.otf(1)/m/n/10 RESTful APIs, chatrooms, data visualiza
-tions, anagram solvers, console applications, HTML5
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--53
 

@@ -25,7 +25,9 @@
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
+\definecolor{bloodred}{HTML}{F80035}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{darkblue}{HTML}{011FC1}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -33,6 +35,7 @@
   \colorlet{purple}{gray}
   \colorlet{red}{gray}
   \colorlet{blue}{gray}
+  \colorlet{darkblue}{gray}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
@@ -117,20 +120,24 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage{parskip}
 
 \newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{%
-  {%
-    \color{%
-      \ifcase\value{colorCounter}%
-        blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\else%
-        headercolor\fi%
-    } #1#2#3%
-  }%
-  \stepcounter{colorCounter}%
-}
+% \def\@sectioncolor#1#2#3{%
+%   {%
+%     \color{%
+%       \ifcase\value{colorCounter}%
+%         blue\or%
+%         red\or%
+%         orange\or%
+%         green\or%
+%         purple\else%
+%         headercolor\fi%
+%     } #1#2#3%
+%   }%
+%   \stepcounter{colorCounter}%
+% }
+
+\def\@sectioncolor{%
+  \color{headercolor}%
+}%
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}

@@ -1,31 +1,28 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
 
-\begin{document}
-\header{prakash}{venkat}
-       {web developer}
+\begin{document}%
+\header{prakash}{venkat}%
+       {web developer}%
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{address}
-    555 W 152nd St
-    New York, NY 10001
+    10567 National Blvd
+    Los Angeles, CA 90034
     ~
     \href{mailto:prakash@asanet.com}{prakash@asanet.com}
     \href{http://prakashvenkat.com}{prakashvenkat.com}
   \section{languages}
     JavaScript
     Python
-    Julia
-    Go
-    Haskell
+    Java
+    LISP
     CSS3 \& HTML5
   \section{tools}
     Angular
-    Express
-    MySQL
-    MongoDB
+    Postgres
     Docker
 \end{aside}
 
@@ -40,13 +37,43 @@ HTML5 frameworks. If you're looking for something web-related, I'm your man.
   \entry
     {2006–2010}
     {GPA 3.8/4.0}
-    {B.S. with Honors}
+    {B.S. Economics with Honors}
     {University of Michigan}
 \end{entrylist}
 
 \section{experience}
 \tabentry
-  {11/2015 – Present}
+  {11/2016 – Present}
+  {Aspiration}
+  {Sr. Full Stack}
+  {Full stack developer at a Fintech company. Built cutting edge retail banking products that served customers needs while interfacing with obsolete ACH infrastructure. Automation, design, team management were my foci here. \\%
+  \ind{1.5ex}{\textbf{Details:}}\\%
+    \bulletlist
+    {Designed and built a payment system for checks that
+      \jdb{serviced an average of 200 customers a day. The system
+      \jdb{was designed and built singlehandedly in 3 weeks}}}
+    {Improved team productivity with a custom Slack bot.The bot
+      \jdb{had the ability to automate deployments, post gifs,
+      \jdb{and reply to chat messages chat messages with witty
+      \jdb{banter.}}}}
+    {Devoted significant time to creating a speedy and 
+      \jdb{transparent build process. Wrote a number of
+      \jdb{bash scripts to glue together several disparate projects.
+      \jdb{On completion, a developer could build the entire api,
+      \jdb{setup test databases, and run migrations with a single command.}}}}}
+    {Migrated one of our frontend projects from Angular 1 
+      \jdb{to Angular 2 (this was before Angular 4 was released).}}
+    \hspace*{1.5ex}-\hspace{1ex}\emph{Organized various social events throughout the company 
+      \jdb{to promote cross-team camraderie. Events consisted of 
+      \jdb{a game night, movie night, yacht cruise through Marina 
+      \jdb{Del Rey, and a White Elephant Gift Exchange.}}}}\\%
+    \hspace*{1.5ex}-\hspace{1ex}\emph{Fostered cross-team projects to meet business goals. 
+      \jdb{Worked with our Financial Operations team 
+      \jdb{to reduce the amount of fraudulent transactions on our system.}}}
+  }
+\pagebreak
+\tabentry
+  {11/2015 – 9/2016}
   {Kargo Global}
   {Sr. Web Developer}
   {Lead Angular developer at a global adtech company. Developed tools that facilitate exchange between advertisers and publishers. Big on open source contributions. I build software that meets business needs.\\%
@@ -81,7 +108,7 @@ HTML5 frameworks. If you're looking for something web-related, I'm your man.
     {Wrote Simple Object Access Protocol web services \jdb{for fetching large XML responses}}
     {Gained familiarity with AWS tools like S3 Cloud Storage, \jdb{CloudFront, and ElasticBeanstalk}}
   }
-%%\pagebreak
+\pagebreak
 \tabentry
   {09/2011 – 12/2011}
   {Bloomberg}
@@ -107,6 +134,50 @@ HTML5 frameworks. If you're looking for something web-related, I'm your man.
     {Presented blog design to firm's technical \jdb{leadership weekly}}
   }
 
+\section{public talks}
+
+\begin{entrylist}
+  \entry
+    {June 2016}
+    {JSLA: Constructing DSLs to Automate Automation}
+    {\href{https://www.youtube.com/watch?v=qcF3omniwtY}{Link}}
+    {Presented Vyuha, a DSL and toy compiler for describing deployment workflows.}
+  \entry
+    {July 2016}
+    {PyGotham: Steganography using the Python Imaging Library (PIL)}
+    {\href{https://goo.gl/wXvnT4/The_Colors_Duke_Steganography_using_the_Python_Imaging_Library_PIL.png}{Link}}
+    {Showcased a pet project of mine, Pixcrypt, that concealed text inside images using steganography.}
+  \entry
+    {November 2016}
+    {Codesmith: Shaking Dependency Graphs}
+    {\href{}{Link}}
+    {Walked the students at Codesmith through an algorithm for constructing and optimizing dependency graphs. The talk was inspired by my own desire to design a simple Javascript build system.}
+  \entry
+    {February 2017}
+    {Codesmith: Exploring the Used Car Market Pt. 1}
+    {\href{}{Link}}
+    {Shed light on the dynamics of Los Angeles's used car market. Presented analysis of variations in price as a function of car type.}
+  \entry
+    {April 2017}
+    {FullStack JS: Exploring the Used Car Market Pt. 2}
+    {\href{https://www.meetup.com/SoCal-Full-Stack-JS/events/238047650/}{Link}}
+    {Sequel to the first talk. Presented the eccentricities of the used car market as a function of car make.}
+\end{entrylist}
+
+\pagebreak
+
+\section{side projects}
+
+\begin{entrylist}
+
+  \entry
+    {Ongoing}
+    {Car Research}
+    {\href{}{Blog}}
+    {Tracked the progression of used car price across various traits to get a feel for how the market works. Came up with a surprisingly accurate way to plot the depreciation of a car.}
+
+\end{entrylist}
+
 \section{awards}
 
 \begin{entrylist}
@@ -114,7 +185,7 @@ HTML5 frameworks. If you're looking for something web-related, I'm your man.
     {October 2014}
     {Finalist, Money 20/20 Hackathon}
     {\href{http://github.com/dopatraman/pixcrypt}{Pixcrypt}}
-    {Concealed bitcoin wallet information inside pictures using a steganography algorithm. Users could send sensitive bitcoin information to each other in the form of images, as opposed to verbose bitcoin addresses. Users could also embed bitcoin information in the world around them by taking photographs.}
+    {Concealed bitcoin wallet information inside pictures using steganography. Users could send sensitive bitcoin information to each other in the form of images, as opposed to verbose bitcoin addresses. Users could also embed bitcoin information in the world around them by taking photographs.}
   \entry
     {April 2013}
     {Finalist, Ghostery Hackathon}
@@ -124,10 +195,10 @@ HTML5 frameworks. If you're looking for something web-related, I'm your man.
 
 \section{hobbies}
 
-  - Photography\\%
-  - Traveling\\%
   - Surfing\\%
   - Snowboarding\\%
+  - Photography\\%
+  - Traveling\\%
   - Brewing Beer\\%
 
 \end{document}
